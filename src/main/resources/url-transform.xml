@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>key should end with "/"</comment>
+    <entry key="https://repo1.maven.org/maven2/">https://maven.aliyun.com/repository/central</entry>
+    <entry key="http://jcenter.bintray.com/">https://maven.aliyun.com/repository/public</entry>
+    <entry key="https://maven.google.com/">https://maven.aliyun.com/repository/google</entry>
+    <entry key="https://plugins.gradle.org/m2/">https://maven.aliyun.com/repository/gradle-plugin</entry>
+    <entry key="http://repo.spring.io/libs-milestone/">https://maven.aliyun.com/repository/spring</entry>
+    <entry key="http://repo.spring.io/plugins-release/">https://maven.aliyun.com/repository/spring-plugin</entry>
+    <entry key="https://repo.grails.org/grails/core/">https://maven.aliyun.com/repository/grails-core</entry>
+    <entry key="https://repository.apache.org/snapshots/">https://maven.aliyun.com/repository/apache-snapshots</entry>
+    <entry key="https://repo.maven.apache.org/maven2/">https://maven.aliyun.com/repository/central</entry>
+</properties>
