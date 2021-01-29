@@ -2,9 +2,9 @@
 
 <br/>
 
-#### Usage:
-1. open or create `init.gradle` in `user_home/.gradle/`
-2. 
+#### Tips:
+* Apply this plugin in `init.gradle` at `user_home/.gradle/`
+
 
 
 
