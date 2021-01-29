@@ -1,4 +1,4 @@
-package party.smileface.switchmirror;
+package com.gitee.yuhun.switchmirror;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.artifacts.repositories.ArtifactRepository;
