@@ -1,4 +1,4 @@
-package com.github.MangoIceCup.aliyunmirror;
+package com.gmail.jfkudg.aliyunmirror;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.artifacts.repositories.ArtifactRepository;

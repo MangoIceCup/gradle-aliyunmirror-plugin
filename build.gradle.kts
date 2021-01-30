@@ -5,7 +5,7 @@ plugins {
     id("com.gradle.plugin-publish") version "0.12.0"
 }
 
-group = "com.github.MangoIceCup"
+group = "com.gmail.jfkudg"
 version = "1.0"
 
 repositories {
@@ -18,8 +18,8 @@ dependencies {
 gradlePlugin {
     plugins {
         create("AppreciateAliyunMirrorPlugin") {
-            id = "com.github.mangoicecup.appreciate-aliyun-mirror"
-            implementationClass = "com.github.MangoIceCup.aliyunmirror.AppreciateAliyunMirrorPlugin"
+            id = "com.gmail.jfkudg.appreciate-aliyun-mirror"
+            implementationClass = "com.gmail.jfkudg.aliyunmirror.AppreciateAliyunMirrorPlugin"
             displayName = "Appreciate Aliyun Mirror Plugin"
             description = "Using Aliyun Mirrored Repositories"
         }
