@@ -5,8 +5,8 @@ plugins {
     id("com.gradle.plugin-publish") version "0.12.0"
 }
 
-group = "com.gitee.yuhun"
-version = "0.9"
+group = "com.github.MangoIceCup"
+version = "1.0"
 
 repositories {
     mavenCentral()
@@ -18,8 +18,8 @@ dependencies {
 gradlePlugin {
     plugins {
         create("AppreciateAliyunMirrorPlugin") {
-            id = "com.gitee.yuhun.appreciate-aliyun-mirror"
-            implementationClass = "com.gitee.yuhun.switchmirror.AppreciateAliyunMirrorPlugin"
+            id = "com.github.mangoicecup.appreciate-aliyun-mirror"
+            implementationClass = "com.github.MangoIceCup.aliyunmirror.AppreciateAliyunMirrorPlugin"
             displayName = "Appreciate Aliyun Mirror Plugin"
             description = "Using Aliyun Mirrored Repositories"
         }
@@ -44,9 +44,9 @@ publishing {
 
 
 pluginBundle {
-    website = "https://gitee.com/YuHun/appreciate-aliyun-mirror"
-    vcsUrl = "svn://gitee.com/YuHun/appreciate-aliyun-mirror"
-    tags = listOf("china", "repo", "mirror")
+    website = "https://github.com/MangoIceCup/gradle-aliyunmirror-plugin"
+    vcsUrl = "https://github.com/MangoIceCup/gradle-aliyunmirror-plugin.git"
+    tags = listOf("aliyun", "repo", "mirror")
 }
 
 tasks.withType<JavaCompile>() {

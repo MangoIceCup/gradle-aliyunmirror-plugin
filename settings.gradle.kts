@@ -1,2 +1,2 @@
-rootProject.name = "appreciate-aliyun-mirror"
+rootProject.name = "aliyunmirror"
 
