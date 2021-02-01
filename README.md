@@ -2,9 +2,23 @@
 
 <br/>
 
-#### Tips:
-* Apply this plugin in `init.gradle` at `user_home/.gradle/`
-
+#### How To Use:
+* Edit `init.gradle` at `user_home/.gradle/` .
+* Copy and paste below code to init.gradle .
+<pre>
+    initscript {
+        repositories {
+            maven {
+                url "https://plugins.gradle.org/m2/"
+            }
+        }
+        dependencies {
+            classpath "com.gmail.jfkudg:aliyunmirror:1.0"
+        }
+    }
+    import com.gmail.jfkudg.aliyunmirror.AppreciateAliyunMirrorPlugin
+    apply plugin: AppreciateAliyunMirrorPlugin
+</pre>
 
 
 
